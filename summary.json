@@ -1,0 +1,11 @@
+{
+  "start": "2025-01-01",
+  "end": "2025-09-09",
+  "initial_cash": 100000,
+  "ending_equity": 97057.87,
+  "total_return": -0.029421300000000095,
+  "max_drawdown": -0.02996839782362748,
+  "closed_trades": 14,
+  "win_rate": 0.42857142857142855,
+  "daily_return_std": 0.001489654224993374
+}

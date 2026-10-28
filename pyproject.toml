@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "wenying-quant"
+version = "0.1.0"
+description = "A-share short-term research pipeline and risk-aware baseline backtest"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "numpy>=1.24"]
+[project.optional-dependencies]
+data = ["akshare>=1.15", "pyarrow>=14"]
+test = ["pytest>=7"]
+[project.scripts]
+wenying = "wenying.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
